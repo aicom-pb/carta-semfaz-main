@@ -3,778 +3,742 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carta de Serviço - SEMFAZ</title>
-    <meta name="description" content="Carta de Serviços da SEMFAZ - Secretaria Municipal de Fazenda e Administração de Pimenta Bueno - RO.">
+    <title>Carta de Serviço - Pimenta Bueno</title>
+    <meta name="description" content="Carta de Serviços da Prefeitura Municipal de Pimenta Bueno - RO. Informações sobre departamentos, competências e atendimento ao cidadão.">
     <meta name="author" content="Prefeitura de Pimenta Bueno">
     
-    <link rel="icon" type="image/png" href="assets/images/brasao.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
-    <meta property="og:title" content="Carta de Serviços - SEMFAZ">
-    <meta property="og:description" content="Carta de Serviços da SEMFAZ - Secretaria Municipal de Fazenda e Administração de Pimenta Bueno - RO">
-    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="style.css">
     
-    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
-    
-    <link rel="stylesheet" href="styles.css">
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-<header class="header">
-    <div class="header-background-image"></div>
-    <div class="container">
-        <div class="header-content">
-            <div class="header-title-section">
-                <div class="header-icon-title">
-                    <div>
-                        <h1>PREFEITURA DO MUNICÍPIO DE PIMENTA BUENO</h1>
-                        <p class="header-subtitle">CARTA DE SERVIÇO - SEMFAZ</p>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+<div class="logo-container">
+                </div>
+                
+                <div class="header-text">
+                    <h1>PREFEITURA DE PIMENTA BUENO</h1>
+                    <p class="header-subtitle">CARTA DE SERVIÇOS SEMFAZ</p>
+                </div>
+                
+                <div class="social-buttons">
+                    <a href="https://pimentabueno.ro.gov.br/site/" target="_blank" class="social-button site">
+                        <i class="fas fa-globe"></i>
+                        <span>Site Oficial</span>
+                    </a>
+                    <a href="https://www.facebook.com/PrefeituradePimentaBueno" target="_blank" class="social-button facebook">
+                        <i class="fab fa-facebook-f"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="https://www.instagram.com/prefeiturapb/" target="_blank" class="social-button instagram">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="https://www.youtube.com/@PrefeituradePimentaBueno" target="_blank" class="social-button youtube">
+                        <i class="fab fa-youtube"></i>
+                        <span>YouTube</span>
+                    </a>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <div class="contact-title">ENDEREÇO</div>
+                            <div class="contact-value">
+                                <a href="https://www.google.com/maps/place/Prefeitura+de+Pimenta+Bueno/@-11.6708694,-61.1889152,135m/data=!3m1!1e3!4m6!3m5!1s0x93b7e5d11ca56f83:0x57d5df651de4f8c3!8m2!3d-11.6708446!4d-61.1884997!16s%2Fg%2F1tdx0mq7?entry=ttu&g_ep=EgoyMDI1MDcyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                    Av. Castelo Branco, 1046 - Pimenta Bueno - RO, 76970-000
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                
-                <div class="header-secretaria-logo">
-                    <img src="assets/images/logo_secretaria.png" alt="Logo da Secretaria" style="width: 184px; height: 92px;">
-                </div>
-
-                <div class="main-cta">
-                    <div class="cta-buttons">
-                        <a href="https://pimentabueno.ro.gov.br/site/" target="_blank" class="cta-button">
-                            <img src="assets/images/site.svg" alt="Ícone Site" class="cta-svg-icon">
-                        </a>
-                        <a href="https://www.facebook.com/PrefeituradePimentaBueno" target="_blank" class="cta-button">
-                            <img src="assets/images/facebook.svg" alt="Ícone Facebook" class="cta-svg-icon">
-                        </a>
-                        <a href="https://www.instagram.com/prefeiturapb/" target="_blank" class="cta-button">
-                            <img src="assets/images/instagram.svg" alt="Ícone Instagram" class="cta-svg-icon">
-                        </a>
-                        <a href="https://www.youtube.com/@PrefeituradePimentaBueno" target="_blank" class="cta-button">
-                            <img src="assets/images/youtube.svg" alt="Ícone YouTube" class="cta-svg-icon">
-                        </a>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <div class="contact-title">WHATSAPP</div>
+                            <div class="contact-value">
+                                <a href="https://wa.me/5569981162254" target="_blank">(69) 98116-2254 (Atendimento)</a>
+                                <a href="https://wa.me/5569981699989" target="_blank">(69) 98169-9989 (Ouvidoria)</a>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-
-            <div class="contact-grid">
-                <div class="contact-item">
-                    <i data-lucide="map-pin"></i>
-                    <a href="https://www.google.com/maps/place/Prefeitura+de+Pimenta+Bueno/@-11.6708694,-61.1889152,135m/data=!3m1!1e3!4m6!3m5!1s0x93b7e5d11ca56f83:0x57d5df651de4f8c3!8m2!3d-11.6708446!4d-61.1884997!16s%2Fg%2F1tdx0mq7?entry=ttu&g_ep=EgoyMDI1MDcyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="map-link">
-                        <span>Av. Castelo Branco, 1046 - Pimenta Bueno - RO, 76970-000</span>
-                    </a>
-                </div>
-                
-                <div class="contact-item">
-                    <a href="https://wa.me/5569981162254" target="_blank" class="whatsapp-link">
-                        <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                        <span>Balcão de Atendimento (69) 98116-2254</span>
-                    </a>
-                    <a href="https://wa.me/5569981699989" target="_blank" class="whatsapp-link">
-                        <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                        <span>Ouvidoria   (69) 98169-9989</span>
-                    </a>
-                </div>
-                
-                <div class="contact-item">
-                    <i data-lucide="mail"></i>
-                    <a href="mailto:semfaz@pimentabueno.ro.gov.br" class="mail-link">
-                        <span>semfaz@pimentabueno.ro.gov.br</span>
-                    </a>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <div class="contact-title">E-MAIL</div>
+                            <div class="contact-value">
+                                <a href="mailto:gabinete@pimentabueno.ro.gov.br">gabinete@pimentabueno.ro.gov.br</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</header>
-
-    <main class="main">
+    </header>
+    
+    
+    <main class="main-content">
         <div class="container">
-            <section id="semfaz-sede" class="department-section">
-                <div class="department-card">
+            <h2 class="section-title">Departamentos e Serviços</h2>
+            
+            <div class="department-grid">
+                <div class="department-card" id="semfaz">
                     <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-building-2"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/><path d="M10 6h4"/><path d="M10 10h4"/><path d="M10 14h4"/><path d="M10 18h4"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">SEMFAZ: SEDE ADMINISTRATIVA</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Gilmara Alves Macedo Guerreiro - Comissionado</span>
-                                </div>
+                        <div class="card-icon">
+                            <i class="fas fa-hand-holding-usd"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>SEMFAZ: SEDE ADMINISTRATIVA</h3>
+                            <div class="card-director">
+                                <i class="fas fa-user"></i>
+                                <span>Gilmara Alves Macedo Guerreiro</span>
                             </div>
                         </div>
                     </div>
                     
                     <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <a href="https://www.google.com/maps/place/Av.+Castelo+Branco,+1046+-+Pioneiros,+Pimenta+Bueno+-+RO,+76970-000/@-11.6708694,-61.1889152,135m/data=!3m1!1e3!4m6!3m5!1s0x93b7e5d11ca56f83:0x57d5df651de4f8c3!8m2!3d-11.6708446!4d-61.1884997!16s%2Fg%2F1tdx0mq7?entry=ttu" target="_blank" class="map-link">
-                                    <span>Avenida Castelo Branco, 1046, Bairro: Pioneiros, CEP: 76970-000</span>
-                                </a>
+                        <div class="contact-info-card">
+                            <div class="contact-item">
+                                <div class="contact-label">Endereço:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://www.google.com/maps/place/Centro+Cultural+de+Pimenta+Bueno/@-11.6712836,-61.1885044,134m/data=!3m1!1e3!4m14!1m7!3m6!1s0x93b7e5d11ca56f83:0x57d5df651de4f8c3!2sPrefeitura+de+Pimenta+Bueno!8m2!3d-11.6708446!4d-61.1884997!16s%2Fg%2F1tdx0mq7!3m5!1s0x93b7e5d62caab84b:0xbb9a20a34af270ae!8m2!3d-11.6712736!4d-61.1880021!16s%2Fg%2F1tfqs0h9?entry=ttu&g_ep=EgoyMDI1MDcyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                        Avenida Castelo Branco, 1046, Bairro: Pioneiros, CEP: 76970-000
+                                    </a>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569981699975" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 9 8169-9975</span>
-                                </a>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">WhatsApp:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://wa.me/5569981699975" target="_blank">(69) 98169-9975</a>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
-                                <a href="mailto:semfaz@pimentabueno.ro.gov.br" class="mail-link">
-                                    <span>semfaz@pimentabueno.ro.gov.br</span>
-                                </a>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">E-mail:</div>
+                                <div class="contact-value-card">
+                                    <a href="mailto:semfaz@pimentabueno.ro.gov.br">semfaz@pimentabueno.ro.gov.br</a>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
-                                <span>De segunda a sexta-feira, das 07:30 às 13:30.</span>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">Horário:</div>
+                                <p class="horario-atendimento">De segunda a sexta-feira, das 07:30 às 13:30.</p>
                             </div>
                         </div>
-
+                        
                         <div class="competencies">
+                            <h4>Competências da SEMFAZ:</h4>
+                            <ul class="competencies-list">
+                                <li>A formulação, a coordenação e a execução da política de administração tributária e fiscal do município.</li>
+                                <li>A arrecadação, o lançamento e a fiscalização dos tributos e receitas municipais.</li>
+                                <li>A organização e a manutenção do cadastro econômico e imobiliário do município.</li>
+                                <li>A fixação de critérios para a concessão de incentivos fiscais e financeiros.</li>
+                                <li>A promoção da educação fiscal da população.</li>
+                                <li>A centralização da contabilidade dos fundos e órgãos da administração pública municipal.</li>
+                                <li>A elaboração e emissão de balancetes, balanços e prestação de contas.</li>
+                                <li>O registro e controle contábil da administração financeira e patrimonial.</li>
+                                <li>Acompanhamento dos gastos com pessoal, materiais, serviços, encargos diversos, instalações e equipamentos.</li>
+                                <li>O processamento do pagamento de despesas e da movimentação das contas bancárias.</li>
+                                <li>O repasse de recursos ao poder legislativo.</li>
+                                <li>A gestão e controle da frota de veículos leves e pesados.</li>
+                                <li>O gerenciamento das despesas com combustíveis.</li>
+                                <li>A orientação e estabelecimento de normas e procedimentos no tocante às compras e suprimentos de bens e serviços.</li>
+                                <li>A administração e gerenciamento de almoxarifado central e sistema único de cadastro de fornecedores.</li>
+                                <li>A administração de recursos humanos, como coordenação e execução de atividades de cadastramento, alocação, concessão de benefícios, capacitação, concursos públicos e processos seletivos.</li>
+                                <li>A gestão, auditoria e processamento da folha de pagamento dos servidores.</li>
+                            </ul>
                             <h4>Atribuições do Secretário:</h4>
                             <ul class="competencies-list">
-                                <li>Promover a participação da secretaria na coordenação e elaboração de planos, programas e projetos do governo municipal, especialmente no plano plurianual de investimentos, na lei de diretrizes orçamentárias e no orçamento anual do município;</li>
-                                <li>Definir os objetivos gerais e específicos da secretaria, em consonância com os objetivos gerais e metas estabelecidas pelo governo municipal;</li>
-                                <li>Implementar a execução de todos os serviços e atividades a cargo da secretaria, com vistas à consecução das finalidades e competências definidas neste regimento e em outros dispositivos legais e regulamentos pertinentes;</li>
-                                <li>Fazer cumprir as metas previstas no plano plurianual, na lei de diretrizes orçamentárias e no orçamento anual aprovado para a secretaria;</li>
-                                <li>Administrar os recursos materiais e financeiros disponibilizados para a secretaria, responsabilizando-se, nos termos da lei, pelos atos que assinar, ordenar ou praticar;</li>
-                                <li>Expedir atos normativos, resoluções, ordens de serviço e demais instruções necessárias à orientação e aplicação das leis tributárias, dando-lhes interpretação, dirimir-lhes as dúvidas e os casos omissos;</li>
-                                <li>Providenciar os instrumentos e recursos necessários ao regular funcionamento da secretaria;</li>
-                                <li>Aprovar pareceres técnicos relativos a assuntos de competência da secretaria;</li>
-                                <li>Determinar a instauração de processos administrativos;</li>
-                                <li>Promover a execução e controle das atividades de cadastramento, lançamento, cobrança, recolhimento e fiscalização dos tributos municipais, nos termos do código tributário do município e da legislação complementar;</li>
-                                <li>Editar calendário fiscal, definindo a forma, local e prazos para o lançamento e recolhimento de tributos;</li>
-                                <li>Ordenar despesas da secretaria municipal de fazenda e administração;</li>
-                                <li>Aplicar penalidade a infratores de dispositivos contratuais ou conceder prorrogação de prazos, conforme o que estiver estabelecido no respectivo instrumento;</li>
-                                <li>Comparecer à câmara municipal, sempre que convocado, para prestação de esclarecimentos oficiais;</li>
-                                <li>Prestar contas dos trabalhos desenvolvidos pela secretaria, encaminhando ao chefe do poder executivo e despachar os assuntos de sua competência;</li>
-                                <li>Delegar competência às chefias e aos demais servidores da secretaria, naquilo que couber, nos limites de suas competências legais;</li>
-                                <li>Convocar e dirigir reuniões periódicas de programação, coordenação e controle do andamento dos trabalhos da secretaria;</li>
-                                <li>Propor ao chefe do poder executivo a nomeação ou exoneração de pessoal, ou destituição de cargos comissionados, ou funções de confiança da secretaria;</li>
-                                <li>Representar o chefe do poder executivo, quando designado;</li>
-                                <li>Atender as requisições e diligências dos órgãos de controle interno e externo, e outros, dentro dos prazos fixados, encaminhando e/ou providenciando resposta e a documentação pertinente à sua área de competência;</li>
-                                <li>Exercer outras atividades compatíveis com a natureza de suas funções, previstas em dispositivos legais e/ou que lhe forem atribuídas pelo chefe do executivo, observando sempre os princípios legais, éticos e morais;</li>
-                                <li>Gerir os recursos humanos, materiais e financeiros disponibilizados para a secretaria, assinar acordos, convênios e contratos, ordenar ou praticar atos, responsabilizando-se, nos termos da lei;</li>
-                                <li>Expedir certidões e conceder, mediante portaria e/ou despacho, benefícios aos servidores municipais, conforme a lei e decretos regulamentadores, nos limites de suas competências.</li>
-                            </ul>
-                            
-                            <h4>Competência da SEMFAZ:</h4>
-                            <ul class="competencies-list">
-                                <li>A formulação, a coordenação e a execução da política de administração tributária e fiscal do município, bem como o aperfeiçoamento, atualização e interpretação da legislação tributária municipal e a gestão das atividades de administração de materiais, serviços, patrimônio, transportes, bem como o armazenamento de materiais de consumo, permanentes e equipamentos;</li>
-                                <li>A arrecadação, o lançamento e a fiscalização dos tributos e receitas municipais;</li>
-                                <li>A organização e a manutenção do cadastro econômico do município, bem como a orientação aos contribuintes quanto a sua atualização;</li>
-                                <li>Organização, inclusão e a manutenção do cadastro imobiliário;</li>
-                                <li>A fixação de critérios para a concessão de todos os incentivos fiscais e financeiros, tendo em vista o desenvolvimento econômico e social do município;</li>
-                                <li>A promoção da educação fiscal da população como estratégia integradora de todas as ações da administração tributária, visando a realização da receita necessária aos objetivos do município;</li>
-                                <li>A centralização da contabilidade dos fundos e órgãos da administração pública municipal;</li>
-                                <li>A elaboração e emissão de balancetes, balanços e prestação de contas para os respectivos gestores e demais atividades inerentes à contabilidade, observando a legislação vigente;</li>
-                                <li>A coordenação, orientação e acompanhamento das ações setoriais e trabalhos de contabilidade dos fundos, órgãos e entidades da administração pública municipal;</li>
-                                <li>A consolidação dos relatórios e demonstrativos contábeis para elaboração e emissão do balanço geral da administração pública municipal;</li>
-                                <li>O registro e controle contábil da administração financeira e patrimonial;</li>
-                                <li>O assessoramento e direcionamento dos órgãos e entidades do município no procedimento da gestão financeira;</li>
-                                <li>O acompanhamento dos gastos com pessoal, materiais, serviços, encargos diversos, instalações e equipamentos;</li>
-                                <li>O processamento do pagamento de despesas e da movimentação das contas bancárias da prefeitura;</li>
-                                <li>O repasse de recursos ao poder legislativo;</li>
-                                <li>O estabelecimento da programação financeira de desembolso consolidada em fluxo de caixa, a uniformização e a padronização de sistemas, procedimentos e formulários aplicados utilizados na execução financeira;</li>
-                                <li>A gestão da infraestrutura, suporte e desenvolvimento do sistema informatizado da secretaria municipal de finanças;</li>
-                                <li>A gestão e controle da frota de veículos leves e pesados pertencentes, locados ou cedidos ao município;</li>
-                                <li>O gerenciamento das despesas com combustíveis utilizados pelos veículos e máquinas alocados nos diversos órgãos da administração municipal e entidades conveniadas;</li>
-                                <li>A orientação e estabelecimento de normas e procedimentos no tocante às compras e suprimentos de bens e serviços e contratações de obras e locações mediante a descentralização dos processos licitatórios para os órgãos e entidades da administração municipal;</li>
-                                <li>A instrução e formulação de procedimentos a serem observados nos processos de aquisições e contratações por dispensas e inexigibilidades pelos órgãos e entidades da administração municipal de forma descentralizada;</li>
-                                <li>A administração e gerenciamento de almoxarifado central e sistema único de cadastro de fornecedores;</li>
-                                <li>A administração de recursos humanos, tais como a coordenação e execução das atividades de cadastramento, alocação, concessão de benefícios, capacitação, realização de concursos públicos e processos seletivos;</li>
-                                <li>A gestão, auditoria e processamento da folha de pagamento dos servidores da administração pública municipal;</li>
-                                <li>A gestão dos planos de cargos e salários dos servidores da prefeitura municipal;</li>
-                                <li>O estudo e a proposição das políticas de definição dos sistemas remuneratórios dos servidores municipais e trabalhadores contratados;</li>
-                                <li>A gestão do atendimento ao usuário do serviço público municipal, objetivando a melhoria constante da qualidade dos serviços prestados.</li>
+                                <li>Promover a participação da secretaria na elaboração de planos, programas e projetos do governo municipal.</li>
+                                <li>Definir os objetivos gerais e específicos da secretaria.</li>
+                                <li>Implementar a execução de todos os serviços e atividades a cargo da secretaria.</li>
+                                <li>Fazer cumprir as metas previstas no plano plurianual, na lei de diretrizes orçamentárias e no orçamento anual.</li>
+                                <li>Administrar os recursos materiais e financeiros disponibilizados para a secretaria.</li>
+                                <li>Expedir atos normativos, resoluções, ordens de serviço e demais instruções necessárias à orientação e aplicação das leis tributárias.</li>
+                                <li>Promover a execução e controle das atividades de cadastramento, lançamento, cobrança, recolhimento e fiscalização dos tributos municipais.</li>
+                                <li>Editar calendário fiscal, definindo a forma, local e prazos para o lançamento e recolhimento de tributos.</li>
+                                <li>Ordenar despesas da secretaria municipal de fazenda e administração.</li>
+                                <li>Comparecer à câmara municipal, sempre que convocado.</li>
+                                <li>Prestar contas dos trabalhos desenvolvidos pela secretaria.</li>
+                                <li>Delegar competência às chefias e aos demais servidores da secretaria.</li>
+                                <li>Convocar e dirigir reuniões periódicas de programação, coordenação e controle do andamento dos trabalhos da secretaria.</li>
+                                <li>Propor a nomeação ou exoneração de pessoal.</li>
+                                <li>Atender as requisições e diligências dos órgãos de controle interno e externo.</li>
+                                <li>Gerir os recursos humanos, materiais e financeiros, assinar acordos, convênios e contratos.</li>
+                                <li>Expedir certidões e conceder benefícios aos servidores municipais.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <section id="superintendencia-receita" class="department-section">
-                <div class="department-card">
+                
+                <div class="department-card" id="superintendencia-receita">
                     <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-coins"><circle cx="8" cy="8" r="6"/><path d="M18.09 10.37A6 6 0 1 1 10.34 18"/><path d="M7 6h1v4"/><path d="m16.71 13.88.7.71-2.82 2.82"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">SUPERINTENDÊNCIA DE RECEITA</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Jorge Akio Tsuchya Horinouti - Efetivo</span>
-                                </div>
+                        <div class="card-icon">
+                            <i class="fas fa-money-bill-wave"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>SUPERINTENDÊNCIA DE RECEITA</h3>
+                            <div class="card-director">
+                                <i class="fas fa-user"></i>
+                                <span>Jorge Akio Tsuchya Horinouti</span>
                             </div>
                         </div>
                     </div>
                     
                     <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <span>Avenida Castelo Branco, 1046, Bairro: Pioneiros, CEP: 76970-000</span>
+                        <div class="contact-info-card">
+                            <div class="contact-item">
+                                <div class="contact-label">Endereço:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://www.google.com/maps/place/Centro+Cultural+de+Pimenta+Bueno/@-11.6712836,-61.1885044,134m/data=!3m1!1e3!4m14!1m7!3m6!1s0x93b7e5d11ca56f83:0x57d5df651de4f8c3!2sPrefeitura+de+Pimenta+Bueno!8m2!3d-11.6708446!4d-61.1884997!16s%2Fg%2F1tdx0mq7!3m5!1s0x93b7e5d62caab84b:0xbb9a20a34af270ae!8m2!3d-11.6712736!4d-61.1880021!16s%2Fg%2F1tfqs0h9?entry=ttu&g_ep=EgoyMDI1MDcyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                        Avenida Castelo Branco, 1046, Bairro: Pioneiros, CEP: 76970-000
+                                    </a>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569981456174" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 98145-6174</span>
-                                </a>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">WhatsApp:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://wa.me/5569981456174" target="_blank">(69) 98145-6174</a>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
-                                <a href="mailto:receitapb@pimentabueno.ro.gov.br" class="mail-link">
-                                    <span>receitapb@pimentabueno.ro.gov.br</span>
-                                </a>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">E-mail:</div>
+                                <div class="contact-value-card">
+                                    <a href="mailto:receitapb@pimentabueno.ro.gov.br">receitapb@pimentabueno.ro.gov.br</a>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
-                                <span>De segunda a sexta-feira, das 07:30 às 13:30.</span>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">Horário:</div>
+                                <p class="horario-atendimento">De segunda a sexta-feira, das 07:30 às 13:30.</p>
                             </div>
                         </div>
-
+                        
                         <div class="competencies">
                             <h4>Competências:</h4>
                             <ul class="competencies-list">
-                                <li>Coordenar, acompanhar e estudar as questões relativas à arrecadação das receitas próprias do município, propor e executar políticas e instrumentos de modernização administrativa na área tributária, de arrecadação e de fiscalização, elaborar estudos do comportamento das receitas do município, planejar medidas de fiscalização para incrementar a arrecadação municipal e outras ações correlatas.</li>
-                                <li>Assessorar a auditoria municipal, e o secretário municipal de fazenda na política fiscal do município;</li>
-                                <li>Coordenar a arrecadação de todas as receitas de competência do município;</li>
-                                <li>Estudar as questões relativas à arrecadação das receitas próprias do município, propondo a melhoria no sistema municipal de arrecadação;</li>
-                                <li>Acompanhar a execução do processamento de informações relativas à arrecadação, bem como analisá-las após processamento;</li>
-                                <li>Solicitar informações junto às agências bancárias sobre guias de recolhimento não contabilizadas pelo município;</li>
-                                <li>Propor e adotar medidas que visem a racionalização de métodos de trabalho na arrecadação e fiscalização das receitas do município, bem como coordenar a prestação;</li>
-                                <li>Propor e executar políticas e instrumentos de modernização administrativa na área tributária, de arrecadação e de fiscalização;</li>
-                                <li>Expedir circulares, instruções, portarias, e demais disposições normativas, compatíveis com a legislação tributária que se destinem a complementar;</li>
-                                <li>Controlar e distribuir os carnês, Guia de Recolhimento DAM ou boleto bancário das receitas do município e promover a baixa regular dos débitos;</li>
-                                <li>Apresentar ao secretário municipal de fazenda e administração a avaliação das metas de arrecadação de forma analítica dos impostos, taxas, multas e serviços, com justificativa quanto ao alcance ou não da meta;</li>
-                                <li>Providenciar relatório evidenciando o desempenho da receita, e enviar cópias a central de contabilidade até o dia 05 de fevereiro do ano subsequente, para encaminhamento ao TCE/RO;</li>
-                                <li>Informar aos contribuintes sobre as exigências legais referentes a assuntos pertinentes à secretaria municipal de fazenda e administração;</li>
-                                <li>Elaborar estudos do comportamento das receitas do município e planejar medidas de fiscalização para incrementar a arrecadação em conjunto com auditoria tributária;</li>
-                                <li>Elaborar planos de trabalhos estratégicos com metodologia específica de receitas em conjunto com auditoria tributária;</li>
-                                <li>Coordenar os servidores subordinados ao órgão, podendo distribuir tarefas e delegar funções em conjunto com auditoria tributária;</li>
+                                <li>Coordenar, acompanhar e estudar as questões relativas à arrecadação das receitas próprias do município.</li>
+                                <li>Assessorar a auditoria municipal e o secretário municipal de fazenda na política fiscal do município.</li>
+                                <li>Coordenar a arrecadação de todas as receitas de competência do município.</li>
+                                <li>Propor e adotar medidas que visem a racionalização de métodos de trabalho na arrecadação e fiscalização das receitas.</li>
+                                <li>Expedir circulares, instruções, portarias, e demais disposições normativas.</li>
+                                <li>Controlar e distribuir os carnês, Guia de Recolhimento DAM ou boleto bancário das receitas.</li>
+                                <li>Apresentar ao secretário a avaliação das metas de arrecadação de forma analítica.</li>
+                                <li>Elaborar estudos do comportamento das receitas do município e planejar medidas de fiscalização para incrementar a arrecadação.</li>
+                                <li>Coordenar os servidores subordinados ao órgão, podendo distribuir tarefas e delegar funções.</li>
                                 <li>Executar outras atividades correlatas.</li>
                             </ul>
-                            
                             <h4>Serviços Prestados:</h4>
                             <ul class="competencies-list">
-                                <li>ITBI</li>
-                                <li>IPTU</li>
-                                <li>ISENÇÃO DE IPTU</li>
-                                <li>DESCONTO DE MELHORIA - IPTU</li>
-                                <li>CERTIDÃO NEGATIVA DÉBITOS</li>
-                                <li>GUIA DE RECOLHIMENTO DE TAXAS EM GERAL</li>
-                                <li>DEMONSTRATIVO DE DÉBITOS</li>
-                                <li>ISSQN/ ISS</li>
-                                <li>CADASTRO MOBILIÁRIO</li>
-                                <li>CADASTRO DE CONTRIBUINTE</li>
-                                <li>RENOVAÇÃO DE ALVARÁ</li>
+                                <li>ITBI.</li>
+                                <li>IPTU.</li>
+                                <li>ISENÇÃO DE IPTU.</li>
+                                <li>DESCONTO DE MELHORIA - IPTU.</li>
+                                <li>CERTIDÃO NEGATIVA DÉBITOS.</li>
+                                <li>GUIA DE RECOLHIMENTO DE TAXAS EM GERAL.</li>
+                                <li>DEMONSTRATIVO DE DÉBITOS.</li>
+                                <li>ISSQN/ ISS.</li>
+                                <li>CADASTRO MOBILIÁRIO.</li>
+                                <li>CADASTRO DE CONTRIBUINTE.</li>
+                                <li>RENOVAÇÃO DE ALVARÁ.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <section id="superintendencia-rh" class="department-section">
-                <div class="department-card">
+                
+                <div class="department-card" id="superintendencia-rh">
                     <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="m22 21-3-3m0 0a5 5 0 1 0-7-7 5 5 0 0 0 7 7Z"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">SUPERINTENDÊNCIA DE RECURSOS HUMANOS</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Jaqueline Simplício Marchiori Oliveira - Efetivo</span>
-                                </div>
+                        <div class="card-icon">
+                            <i class="fas fa-users-cog"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>SUPERINTENDÊNCIA DE RECURSOS HUMANOS</h3>
+                            <div class="card-director">
+                                <i class="fas fa-user"></i>
+                                <span>Jaqueline Simplício Marchiori Oliveira</span>
                             </div>
                         </div>
                     </div>
                     
                     <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <span>Avenida Castelo Branco, 1046, Bairro: Pioneiros, CEP: 76970-000</span>
+                        <div class="contact-info-card">
+                            <div class="contact-item">
+                                <div class="contact-label">Endereço:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://www.google.com/maps/place/Centro+Cultural+de+Pimenta+Bueno/@-11.6712836,-61.1885044,134m/data=!3m1!1e3!4m14!1m7!3m6!1s0x93b7e5d11ca56f83:0x57d5df651de4f8c3!2sPrefeitura+de+Pimenta+Bueno!8m2!3d-11.6708446!4d-61.1884997!16s%2Fg%2F1tdx0mq7!3m5!1s0x93b7e5d62caab84b:0xbb9a20a34af270ae!8m2!3d-11.6712736!4d-61.1880021!16s%2Fg%2F1tfqs0h9?entry=ttu&g_ep=EgoyMDI1MDcyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                        Avenida Castelo Branco, 1046, Bairro: Pioneiros, CEP: 76970-000
+                                    </a>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569981699975" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 98169-9975</span>
-                                </a>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">WhatsApp:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://wa.me/5569981699975" target="_blank">(69) 98169-9975</a>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
-                                <a href="mailto:rh@pimentabueno.ro.gov.br" class="mail-link">
-                                    <span>rh@pimentabueno.ro.gov.br</span>
-                                </a>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">E-mail:</div>
+                                <div class="contact-value-card">
+                                    <a href="mailto:rh@pimentabueno.ro.gov.br">rh@pimentabueno.ro.gov.br</a>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
-                                <span>De segunda a sexta-feira, das 07:30 às 13:30.</span>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">Horário:</div>
+                                <p class="horario-atendimento">De segunda a sexta-feira, das 07:30 às 13:30.</p>
                             </div>
                         </div>
-
+                        
                         <div class="competencies">
                             <h4>Competências:</h4>
                             <ul class="competencies-list">
-                                <li>Responsável pelas atribuições básicas de promover medidas relativas ao processo de recrutamento, seleção, colocação, treinamento, aperfeiçoamento, avaliação e desenvolvimento de recursos humanos;</li>
-                                <li>Promover a profissionalização e valorização do servidor municipal;</li>
-                                <li>Aprimorar as normas existentes e executar programas;</li>
-                                <li>Efetuar o exame legal dos atos relativos a pessoal e promover o seu registro e publicação;</li>
-                                <li>Promover a concessão de vantagens previstas na legislação de pessoal;</li>
-                                <li>Manter mecanismos permanentes de controle e avaliação das despesas com pessoal efetuadas pelo Município.</li>
+                                <li>Responsável por promover medidas relativas ao processo de recrutamento, seleção, colocação, treinamento, aperfeiçoamento, avaliação e desenvolvimento de recursos humanos.</li>
+                                <li>Promover a profissionalização e valorização do servidor municipal.</li>
+                                <li>Aprimorar as normas existentes e executar programas.</li>
+                                <li>Efetuar o exame legal dos atos relativos a pessoal e promover o seu registro e publicação.</li>
+                                <li>Manter mecanismos permanentes de controle e avaliação das despesas com pessoal.</li>
+                                <li>Organizar, administrar e controlar a jornada de trabalho, as escalas de serviço, a frequência, as férias e demais afastamentos dos servidores.</li>
+                                <li>Convocar periodicamente os órgãos setoriais e seccionais para reuniões e palestras.</li>
+                                <li>Elaborar e executar os planos de capacitação pelo diagnóstico das necessidades.</li>
+                                <li>Instruir, emitir pareceres e proferir despachos em requerimentos e solicitações sobre a vida funcional do servidor.</li>
+                                <li>Coordenar os servidores subordinados ao órgão.</li>
                             </ul>
-                            
                             <h4>Serviços Prestados:</h4>
                             <ul class="competencies-list">
-                                <li>Receber documentos de admissão, atender ao público In Loco, via telefone (WhatsApp) e via e-mail;</li>
-                                <li>Recebimento de requerimentos de servidores e interessados In Loco, via telefone (WhatsApp) e via e-mail;</li>
-                                <li>Promover ações articuladas, visando assegurar a uniformidade e padronização dos procedimentos no sistema, com os órgãos da administração municipal;</li>
-                                <li>Coordenar e articular com os órgãos do município, o cumprimento das normas e instruções referentes aos servidores municipais;</li>
-                                <li>Organizar, administrar e controlar a jornada de trabalho, as escalas de serviço, sobreaviso de plantão, a frequência, as férias e demais afastamentos dos servidores, cientificando o interessado do andamento e da conclusão dos mesmos;</li>
-                                <li>Estabelecer as políticas e diretrizes para a área de gestão de recursos humanos;</li>
-                                <li>Regulamentar e normatizar os procedimentos administrativos relativos à gestão de recursos humanos;</li>
-                                <li>Coordenar a regularização de planos, estudos e análise visando o aperfeiçoamento e a modernização das atividades;</li>
-                                <li>Convocar periodicamente os órgãos setoriais e seccionais para reuniões e palestras visando ao aperfeiçoamento e ao disciplinamento do sistema integrado de gestão de recursos humanos;</li>
-                                <li>Elaborar e executar os planos de capacitação pelo diagnóstico das necessidades, conforme as normas estabelecidas pelo município;</li>
-                                <li>Realizar a evolução de cargos e funções para efeito de atualização das situações cadastrais, funcionais e financeiras dos servidores;</li>
-                                <li>Orientar e indicar os procedimentos para solicitação de documentos e direitos funcionais, bem como estabelecer mecanismos que possibilitem a melhoria de atendimento ao servidor, agilizando as solicitações efetuadas;</li>
-                                <li>Receber denúncias sobre atos que estejam ferindo disposições do estatuto ou afetando direitos nele previstos, ou quando precisar sanar alguma dúvida sobre direitos e deveres dos servidores;</li>
-                                <li>Registrar e providenciar o tratamento adequado às reclamações, denúncias e sugestões de servidores ou cidadãos, relacionados aos agentes públicos que trabalham nos serviços do município;</li>
-                                <li>Executar os serviços de recrutamento, seleção, admissão, promoção, progressão, licenciamento, transferência, férias, demissão e penalidades, bem como manter atualizado quadro de vagas, lotação e endereço dos servidores;</li>
-                                <li>Instruir, emitir pareceres e proferir despachos em requerimentos e solicitações sobre a vida funcional do servidor, petições, pedidos de informações, concessão de direitos, vantagens e outros relativos à pessoal;</li>
-                                <li>Responder aos questionamentos do tribunal de contas do estado, quanto aos atos de pessoal e, subsidiar os demais órgãos no atendimento das exigências;</li>
-                                <li>Coordenar os servidores subordinados ao órgão, podendo distribuir tarefas e delegar funções;</li>
+                                <li>Receber documentos de admissão, atender ao público In Loco, via telefone e via e-mail.</li>
+                                <li>Recebimento de requerimentos de servidores e interessados.</li>
+                                <li>Registro e tratamento de reclamações, denúncias e sugestões de servidores ou cidadãos.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="department-card" id="superintendencia-contabilidade">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>SUPERINTENDÊNCIA DE CONTABILIDADE</h3>
+                            <div class="card-director">
+                                <i class="fas fa-user"></i>
+                                <span>Alzeni Alves da Silva</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="contact-info-card">
+                            <div class="contact-item">
+                                <div class="contact-label">Endereço:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://www.google.com/maps/place/Centro+Cultural+de+Pimenta+Bueno/@-11.6712836,-61.1885044,134m/data=!3m1!1e3!4m14!1m7!3m6!1s0x93b7e5d11ca56f83:0x57d5df651de4f8c3!2sPrefeitura+de+Pimenta+Bueno!8m2!3d-11.6708446!4d-61.1884997!16s%2Fg%2F1tdx0mq7!3m5!1s0x93b7e5d62caab84b:0xbb9a20a34af270ae!8m2!3d-11.6712736!4d-61.1880021!16s%2Fg%2F1tfqs0h9?entry=ttu&g_ep=EgoyMDI1MDcyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                        Avenida Castelo Branco, 1046, Bairro: Pioneiros, CEP: 76970-000
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">E-mail:</div>
+                                <div class="contact-value-card">
+                                    <a href="mailto:contadoria@pimentabueno.ro.gov.br">contadoria@pimentabueno.ro.gov.br</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">Horário:</div>
+                                <p class="horario-atendimento">De segunda a sexta-feira, das 07:30 às 13:30.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="competencies">
+                            <h4>Competências:</h4>
+                            <ul class="competencies-list">
+                                <li>Responsável por gerir, organizar e planejar as ações referentes à contabilidade do Município.</li>
+                                <li>Executar as atividades relativas aos assuntos contábeis e proceder com a análise sobre os assuntos financeiros, orçamentários e patrimoniais do município.</li>
+                                <li>Manter os registros e controles contábeis da administração financeira, orçamentária, fiscal e patrimonial.</li>
+                                <li>Organizar e manter arquivo da documentação contábil.</li>
+                                <li>Processar, anualmente, o balanço geral do município e dos fundos municipais.</li>
+                                <li>Manter sob sua guarda, cópia documental dos balancetes mensais e do balanço anual do município.</li>
+                                <li>Preenchimento e envio do SICONFI com as informações da matriz de saldos contábeis, bem como do relatório resumido da execução orçamentária e relatório da gestão fiscal.</li>
+                                <li>Apurar o valor do PASEP e encaminhar para o gabinete do secretário de fazenda para pagamento.</li>
+                                <li>Preencher a Declaração de Créditos e Tributos Federais DCTF e encaminhar à Receita Federal do Brasil.</li>
+                                <li>Planejar, organizar e disciplinar as competências da contabilidade geral do município.</li>
+                                <li>Coordenar os servidores subordinados à Superintendência, podendo distribuir tarefas e delegar funções.</li>
+                                <li>Executar outras atividades pertinentes à contabilidade.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="department-card" id="superintendencia-financas">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-wallet"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>SUPERINTENDÊNCIA DE GESTÃO DE FINANÇAS</h3>
+                            <div class="card-director">
+                                <i class="fas fa-user"></i>
+                                <span>Maria Lusimeire Ribeiro Santos</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-content">
+                        <div class="contact-info-card">
+                            <div class="contact-item">
+                                <div class="contact-label">Endereço:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://www.google.com/maps/place/Centro+Cultural+de+Pimenta+Bueno/@-11.6712836,-61.1885044,134m/data=!3m1!1e3!4m14!1m7!3m6!1s0x93b7e5d11ca56f83:0x57d5df651de4f8c3!2sPrefeitura+de+Pimenta+Bueno!8m2!3d-11.6708446!4d-61.1884997!16s%2Fg%2F1tdx0mq7!3m5!1s0x93b7e5d62caab84b:0xbb9a20a34af270ae!8m2!3d-11.6712736!4d-61.1880021!16s%2Fg%2F1tfqs0h9?entry=ttu&g_ep=EgoyMDI1MDcyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                        Avenida Castelo Branco, 1046, Bairro: Pioneiros, CEP: 76970-000
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">E-mail:</div>
+                                <div class="contact-value-card">
+                                    <a href="mailto:tesouraria@pimentabueno.ro.gov.br">tesouraria@pimentabueno.ro.gov.br</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">Horário:</div>
+                                <p class="horario-atendimento">De segunda a sexta-feira, das 07:30 às 13:30.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="competencies">
+                            <h4>Competências:</h4>
+                            <ul class="competencies-list">
+                                <li>Responsável por exercer atividades relativas ao recebimento, movimentação, pagamento e guarda de valores.</li>
+                                <li>Realizar mensalmente fechamentos e lançamentos das conciliações bancárias das entidades.</li>
+                                <li>Efetuar os lançamentos da receita referente às transferências constitucionais e a conciliação financeira das receitas arrecadadas.</li>
+                                <li>Arquivar documentação relacionada à movimentação financeira.</li>
+                                <li>Encaminhar mensalmente cópia de extratos das contas correntes e aplicações.</li>
+                                <li>Assinar em conjunto com o superintendente de gestão de finanças as transações bancárias, pagamentos e transferências.</li>
+                                <li>Destacar, anexar documentos comprobatórios de pagamentos aos processos.</li>
+                                <li>Acompanhar os lançamentos diários de receitas.</li>
+                                <li>Entregar e receber documentos junto às instituições bancárias.</li>
+                                <li>Prestar informações permanentes ao superintendente de gestão de finanças.</li>
                                 <li>Executar outras atividades correlatas.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <section id="superintendencia-contabilidade" class="department-section">
-                <div class="department-card">
+                
+                <div class="department-card" id="superintendencia-compras">
                     <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calculator"><rect width="16" height="20" x="4" y="2" rx="2"/><line x1="8" x2="16" y1="6" y2="6"/><line x1="16" x2="16" y1="14" y2="18"/><path d="M16 10h.01"/><path d="M12 10h.01"/><path d="M8 10h.01"/><path d="M12 14h.01"/><path d="M8 14h.01"/><path d="M12 18h.01"/><path d="M8 18h.01"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">SUPERINTENDÊNCIA DE CONTABILIDADE</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Alzeni Alves da Silva - Efetivo</span>
-                                </div>
+                        <div class="card-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>SUPERINTENDÊNCIA DE COMPRAS E LICITAÇÕES</h3>
+                            <div class="card-director">
+                                <i class="fas fa-user"></i>
+                                <span>Erinan Silveira de Oliveira</span>
                             </div>
                         </div>
                     </div>
                     
                     <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <span>Avenida Castelo Branco, 1046, Bairro: Pioneiros, CEP: 76970-000</span>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
-                                <a href="mailto:contadoria@pimentabueno.ro.gov.br" class="mail-link">
-                                    <span>contadoria@pimentabueno.ro.gov.br</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
-                                <span>De segunda a sexta-feira, das 07:30 às 13:30.</span>
-                            </div>
-                        </div>
-
-                        <div class="competencies">
-                            <h4>Competências:</h4>
-                            <ul class="competencies-list">
-                                <li>Responsável por gerir, organizar e planejar as ações referente aos assuntos relacionados a contabilidade do Município.</li>
-                                <li>Executar as atividades relativas aos assuntos contábeis e proceder com a análise sobre os assuntos financeiros, orçamentários e patrimoniais do município;</li>
-                                <li>Manter os registros e controles contábeis da administração financeira, orçamentária, fiscal e patrimonial do município atualizado, bem como o controle e registro atualizado dos contratos de operações de créditos realizados pelo município;</li>
-                                <li>Organizar e manter arquivo da documentação contábil;</li>
-                                <li>Processar, anualmente, o balanço geral do município e dos fundos municipais, encaminhando-o aos respectivos ordenadores de despesa e à controladoria geral do município;</li>
-                                <li>Manter sob sua guarda, cópia documental dos balancetes mensais e do balanço anual do município, devidamente assinado pelo técnico responsável, prefeito e secretário, até a respectiva aprovação das contas do período, após encaminhar ao arquivo geral do município;</li>
-                                <li>Preenchimento e envio do SICONFI com as informações da matriz de saldos contábeis, bem como do relatório resumido da execução orçamentária e relatório da gestão fiscal, conforme legislação aplicável;</li>
-                                <li>Emitir o relatório com as informações e os dados das pessoas jurídicas e pessoas físicas para serem encaminhados à coordenadoria da folha de pagamentos a fim de que possam ser informadas na DIRF, quando se tratar de processos de contratação de serviços, obras ou locação, conforme dispõe a legislação;</li>
-                                <li>Apurar o valor do PASEP e encaminhar para o gabinete do secretário de fazenda para pagamento;</li>
-                                <li>Preencher a Declaração de Créditos e Tributos Federais DCTF e encaminhar à Receita Federal do Brasil - RFB;</li>
-                                <li>Planejar, organizar e disciplinar as competências da contabilidade geral do município, assim como uniformizar e aperfeiçoar os serviços de contabilidade do município, em respeito à legislação aplicável;</li>
-                                <li>Coordenar os servidores subordinados à Superintendência, podendo distribuir tarefas e delegar funções;</li>
-                                <li>Executar outras atividades pertinentes à contabilidade, conforme disposto em regulamento.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="superintendencia-financas" class="department-section">
-                <div class="department-card">
-                    <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-banknote"><rect width="20" height="12" x="2" y="6" rx="2"/><circle cx="12" cy="12" r="2"/><path d="m6 16 2-2"/><path d="m16 8 2 2"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">SUPERINTENDÊNCIA DE GESTÃO DE FINANÇAS</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Maria Lusimeire Ribeiro Santos - Efetivo</span>
+                        <div class="contact-info-card">
+                            <div class="contact-item">
+                                <div class="contact-label">Endereço:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://www.google.com/maps/place/Centro+Cultural+de+Pimenta+Bueno/@-11.6712836,-61.1885044,134m/data=!3m1!1e3!4m14!1m7!3m6!1s0x93b7e5d11ca56f83:0x57d5df651de4f8c3!2sPrefeitura+de+Pimenta+Bueno!8m2!3d-11.6708446!4d-61.1884997!16s%2Fg%2F1tdx0mq7!3m5!1s0x93b7e5d62caab84b:0xbb9a20a34af270ae!8m2!3d-11.6712736!4d-61.1880021!16s%2Fg%2F1tfqs0h9?entry=ttu&g_ep=EgoyMDI1MDcyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                        Avenida Castelo Branco, 1046, Bairro: Pioneiros, CEP: 76970-000
+                                    </a>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    
-                    <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <span>Avenida Castelo Branco, 1046, Bairro: Pioneiros, CEP: 76970-000</span>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
-                                <a href="mailto:tesouraria@pimentabueno.ro.gov.br" class="mail-link">
-                                    <span>tesouraria@pimentabueno.ro.gov.br</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
-                                <span>De segunda a sexta-feira, das 07:30 às 13:30.</span>
-                            </div>
-                        </div>
-
-                        <div class="competencies">
-                            <h4>Competências:</h4>
-                            <ul class="competencies-list">
-                                <li>Responsável por exercer atividades relativas ao recebimento, movimentação, pagamento e guarda de valores, bem como movimentar as contas bancárias do município e demais entidades e executar outras atividades correlatas.</li>
-                                <li>Realizar mensalmente fechamentos e lançamentos das conciliações bancárias das entidades; do município de Pimenta Bueno e Fundo Municipal do Direito da Criança e do Adolescente;</li>
-                                <li>Efetuar os lançamentos da receita referente às transferências constitucionais e a conciliação financeira das receitas arrecadadas e proceder a devida classificação;</li>
-                                <li>Arquivar documentação relacionada à movimentação financeira;</li>
-                                <li>Encaminhar mensalmente cópia de extratos das contas correntes e aplicações no âmbito do município e FUMDICRA à superintendência de contabilidade;</li>
-                                <li>Encaminhar mensalmente cópia de extratos da conta-corrente/aplicação e conciliação bancária referente às contas de convênios no âmbito do município e FUMDICRA à secretaria de origem do referido convênio, para arquivo visando futura prestação de contas de convênios;</li>
-                                <li>Assinar em conjunto com o superintendente de gestão de finanças as transações bancárias; pagamentos, transferências bancárias, aplicações financeiras em fundos, aplicações financeiras em poupança e resgates;</li>
-                                <li>Destacar, anexar documentos comprobatórios de pagamentos aos processos, efetuar lançamentos de baixas e encaminhá-los;</li>
-                                <li>Acompanhar os lançamentos diários de receitas pela integração;</li>
-                                <li>Entregar e receber documentos junto às instituições bancárias;</li>
-                                <li>Zelar sempre pelo alcance de eficiência, eficácia e efetividade na execução dos serviços de competência da secretaria de fazenda e administração;</li>
-                                <li>Prestar informações permanentes ao superintendente de gestão de finanças, relacionadas com as suas atribuições, sejam técnicas, administrativas ou operacionais, bem como cumprir normas e procedimentos do setor;</li>
-                                <li>Executar outras atividades correlatas.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="superintendencia-compras" class="department-section">
-                <div class="department-card">
-                    <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-cart"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57L20.09 7H5.12"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">SUPERINTENDÊNCIA DE COMPRAS E LICITAÇÕES</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Erinan Silveira de Oliveira - Efetivo</span>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">WhatsApp:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://wa.me/5569981699972" target="_blank">(69) 98169-9972</a>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    
-                    <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <span>Avenida Castelo Branco, 1046, Bairro: Pioneiros, CEP: 76970-000</span>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">E-mail:</div>
+                                <div class="contact-value-card">
+                                    <a href="mailto:centralcompras@pimentabueno.ro.gov.br">centralcompras@pimentabueno.ro.gov.br</a><br>
+                                    <a href="mailto:cpl@pimentabueno.ro.gov.br">cpl@pimentabueno.ro.gov.br</a>
+                                </div>
                             </div>
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569981699972" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 98169-9972</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
-                                <a href="mailto:centralcompras@pimentabueno.ro.gov.br" class="mail-link">
-                                    <span>centralcompras@pimentabueno.ro.gov.br</span>
-                                </a> / 
-                                <a href="mailto:cpl@pimentabueno.ro.gov.br" class="mail-link">
-                                    <span>cpl@pimentabueno.ro.gov.br</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
-                                <span>De segunda a sexta-feira, das 07:30 às 13:30.</span>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">Horário:</div>
+                                <p class="horario-atendimento">De segunda a sexta-feira, das 07:30 às 13:30.</p>
                             </div>
                         </div>
-
+                        
                         <div class="competencies">
                             <h4>Competências:</h4>
                             <ul class="competencies-list">
-                                <li>Responsável por realizar as licitações de compras de bens, materiais e serviços da administração. Sua missão é executar, gerenciar, modernizar e dar transparência às aquisições e serviços necessários ao bom funcionamento da administração, com a participação dos fornecedores e da população.</li>
-                                <li>Administrar e acompanhar a execução dos serviços relacionados a central de compras, coordenar servidores subordinados ao setor, podendo distribuir tarefas, e delegar funções;</li>
-                                <li>Examinar e manifestar-se sobre a regularidade dos documentos consoante especificações no edital de licitação;</li>
-                                <li>Cooperar na formação de proposições visando suprir a demanda de materiais/serviços do município;</li>
-                                <li>Programar, executar, acompanhar e avaliar as atividades em articulação com a central de compras, CPL, pregão e registro de preços;</li>
-                                <li>Desenvolver mecanismos para o aperfeiçoamento e conhecimentos técnicos dos colaboradores, visando a melhoria contínua do padrão das atividades do setor;</li>
-                                <li>Cumprir e fazer cumprir a legislação pertinente a contratação de serviços e aquisição de bens;</li>
-                                <li>Elaborar programa anual de compras, serviços e obras;</li>
-                                <li>Gerir junto às secretarias e gabinete do prefeito, o levantamento das necessidades básicas dos materiais e serviços essenciais ao bom funcionamento, visando proporcionar atendimento tempestivo às demandas apresentadas;</li>
-                                <li>Planejar, orientar, dirigir, coordenar, controlar e supervisionar a execução das compras e do sistema de gerenciamento do registro de preços do município sob sua responsabilidade;</li>
-                                <li>Estabelecer diretrizes e prioridades para realização de compras e do sistema do registro de preços a serem executadas, encaminhando as propostas de normas, mecanismos, procedimentos e prazos para a consecução e submetendo ao chefe do executivo municipal para aprovação;</li>
+                                <li>Responsável por realizar as licitações de compras de bens, materiais e serviços da administração.</li>
+                                <li>Executar, gerenciar, modernizar e dar transparência às aquisições e serviços.</li>
+                                <li>Administrar e acompanhar a execução dos serviços relacionados a central de compras.</li>
+                                <li>Examinar e manifestar-se sobre a regularidade dos documentos.</li>
+                                <li>Cooperar na formação de proposições visando suprir a demanda de materiais/serviços.</li>
+                                <li>Elaborar programa anual de compras, serviços e obras.</li>
+                                <li>Gerir junto às secretarias e gabinete do prefeito, o levantamento das necessidades básicas.</li>
+                                <li>Planejar, orientar, dirigir, coordenar, controlar e supervisionar a execução das compras e do sistema de gerenciamento do registro de preços.</li>
                                 <li>Executar outras atividades que visam a melhoria da gestão administrativa do setor.</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            <section id="central-ti" class="department-section">
-                <div class="department-card">
+                
+                <div class="department-card" id="central-ti">
                     <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-monitor"><rect width="20" height="14" x="2" y="3" rx="2" ry="2"/><line x1="8" x2="16" y1="21" y2="21"/><line x1="12" x2="12" y1="17" y2="21"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">CENTRAL DE TECNOLOGIA DA INFORMAÇÃO E GESTÃO</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Antonio de Lisboa Fernandes - Efetivo</span>
-                                </div>
+                        <div class="card-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>CENTRAL DE TECNOLOGIA DA INFORMAÇÃO E GESTÃO</h3>
+                            <div class="card-director">
+                                <i class="fas fa-user"></i>
+                                <span>Antonio de Lisboa Fernandes</span>
                             </div>
                         </div>
                     </div>
                     
                     <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <span>Avenida Castelo Branco, 1046, Bairro: Pioneiros, CEP: 76970-000</span>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
-                                <a href="mailto:cpd@pimentabueno.ro.gov.br" class="mail-link">
-                                    <span>cpd@pimentabueno.ro.gov.br</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
-                                <span>De segunda a sexta-feira, das 07:30 às 13:30.</span>
-                            </div>
-                        </div>
-
-                        <div class="competencies">
-                            <h4>Competências:</h4>
-                            <ul class="competencies-list">
-                                <li>Responsável pela manutenção de modo geral dos sistemas de gestão pública, responsável pela disponibilização de acesso, sistema via internet, estruturação de rede interna e externa e manutenção dos equipamentos de forma geral.</li>
-                                <li>Administrar, controlar e executar o sistema de informática e a manutenção dos equipamentos de informática do município;</li>
-                                <li>Articular-se com as secretarias, visando dar cumprimento às normas e aos procedimentos para operacionalização na área de tecnologia da informação no âmbito do município;</li>
-                                <li>Prestar assessoria, suporte e operação assistida para implantação de produtos de informática e sistemas às unidades administrativas do município;</li>
-                                <li>Propor a incorporação, substituição e atualização de recursos de software, hardware e comunicação, visando à modernização do município na área de tecnologia de informação e comunicação;</li>
-                                <li>Gerenciar a infraestrutura de comunicação de dados de alta capacidade, assegurando a interconexão e a interoperabilidade dos sistemas existentes no município;</li>
-                                <li>Disponibilizar, na rede, serviços como: correio eletrônico, transferência de arquivos, transmissão de dados, voz e imagem, para simplificar os processos da administração municipal;</li>
-                                <li>Prestar suporte técnico a usuários, administrar sistemas, coordenar projetos de informática e sistema de dados, bem como configurar equipamentos, sistemas operacionais, aplicativos, internet, intranet, além da manutenção de rede e equipamentos de informática;</li>
-                                <li>Administrar e controlar o domínio da internet "pimentabueno.ro.gov.br" utilizado para armazenar as informações relativas aos órgãos do município, bem como os perfis de usuários e contas de correio eletrônico;</li>
-                                <li>Controlar a execução dos serviços de análise, especificação e elaboração dos projetos básicos e termo de referência para aquisição de equipamentos de informática;</li>
-                                <li>Promover manutenção preventiva e corretiva dos equipamentos de informática e dos softwares do município, mantendo sob sua responsabilidade;</li>
-                                <li>Realizar os procedimentos de instalação de equipamentos, programas e aplicativos nos microcomputadores adquiridos, para disponibilização aos usuários do município, bem como controlar e disciplinar a boa utilização de microcomputadores e softwares quanto à conservação, segurança e legalidade do uso;</li>
-                                <li>Coordenar os servidores subordinados ao órgão, podendo distribuir tarefas e delegar funções;</li>
-                                <li>Executar outras atividades correlatas.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="coordenadoria-patrimonio" class="department-section">
-                <div class="department-card">
-                    <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-package"><line x1="16.5" x2="7.5" y1="9.4" y2="4.21"/><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.29,7 12,12 20.71,7"/><line x1="12" x2="12" y1="22" y2="12"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">COORDENADORIA DE PATRIMÔNIO E ALMOXARIFADO</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Juliana Perozo da Silva - Efetivo</span>
+                        <div class="contact-info-card">
+                            <div class="contact-item">
+                                <div class="contact-label">Endereço:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://www.google.com/maps/place/Centro+Cultural+de+Pimenta+Bueno/@-11.6712836,-61.1885044,134m/data=!3m1!1e3!4m14!1m7!3m6!1s0x93b7e5d11ca56f83:0x57d5df651de4f8c3!2sPrefeitura+de+Pimenta+Bueno!8m2!3d-11.6708446!4d-61.1884997!16s%2Fg%2F1tdx0mq7!3m5!1s0x93b7e5d62caab84b:0xbb9a20a34af270ae!8m2!3d-11.6712736!4d-61.1880021!16s%2Fg%2F1tfqs0h9?entry=ttu&g_ep=EgoyMDI1MDcyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                        Avenida Castelo Branco, 1046, Bairro: Pioneiros, CEP: 76970-000
+                                    </a>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    
-                    <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <span>Av. Riachuelo n.º 1010 Bairro: Apedia CEP: 76970-000</span>
-                            </div>
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569981566984" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 98156-6984</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
-                                <a href="mailto:cp.alm@pimentabueno.ro.gov.br" class="mail-link">
-                                    <span>cp.alm@pimentabueno.ro.gov.br</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
-                                <span>De segunda a sexta-feira, das 07:30 às 13:30.</span>
-                            </div>
-                        </div>
-
-                        <div class="competencies">
-                            <h4>Competências:</h4>
-                            <ul class="competencies-list">
-                                <li>Acompanhar, planejar ferramentas de gestão na área de material, patrimônio, almoxarifado e arquivo, receber, armazenar, controlar e distribuir os bens adquiridos pelo município, cadastrar o material permanente e os equipamentos recebidos, bem como manter registro dos bens móveis, controlando a sua circulação, além de conferir, constantemente, o estado dos bens móveis, imóveis e equipamentos, seguir as normas estabelecidas pelo órgão controlador do município sobre inventários e arrolamentos de bens e outras atividades correlatas.</li>
-                            </ul>
                             
-                            <h4>Almoxarifado Central:</h4>
-                            <ul class="competencies-list">
-                                <li>Administrar, acompanhar e controlar a execução dos serviços de recebimento, estocagem e distribuição dos bens do município;</li>
-                                <li>Receber todo o material adquirido, observadas as características próprias dos produtos (perfeitas condições de uso e consumo) e bem assim as condições estipuladas na ordem de compra, recusando os produtos em desacordo com esse documento;</li>
-                                <li>Desenvolver ações no sentido de que os produtos, sejam devida e convenientemente armazenados;</li>
-                                <li>Zelar pela preservação da qualidade dos produtos, principalmente, pelas condições sanitárias dos alimentos;</li>
-                                <li>Atender, com pontualidade, as requisições de material das unidades, dentro das disponibilidades de estoque e conforme a quantidade média estipulada para cada caso, pelos setores competentes, obedecida ao programa de abastecimento;</li>
-                                <li>Estabelecer o ponto de ressuprimento (estoque mínimo) para cada material, conforme as estatísticas do consumo e outras circunstâncias condicionantes;</li>
-                                <li>Enviar a coordenadoria de patrimônio o "mapa de controle físico" dos materiais estocados no Almoxarifado;</li>
-                                <li>Organizar cadastros com a discriminação, anotações e baixado material;</li>
-                                <li>Receber, guardar e distribuir material mediante ordens superiores;</li>
-                                <li>Manter a escrituração dos materiais sob sua vista e guarda;</li>
-                                <li>Respeitar, no cumprimento de suas atribuições legais, toda a legislação vigente sobre a matéria;</li>
-                                <li>Atestar e liberar as notas fiscais/faturas relativas a materiais adquiridos pelas secretarias, encaminhando a documentação ao setor competente;</li>
-                                <li>Preparar o inventário de bens estocado no almoxarifado;</li>
-                                <li>Manter o controle sobre a movimentação de entrada e saída dos bens, para efeito de alteração no inventário;</li>
-                                <li>Seguir as normas estabelecidas pela controladoria geral do município sobre inventários e arrolamentos de bens;</li>
-                                <li>Coordenar os servidores subordinados ao órgão, podendo distribuir tarefas e delegar funções;</li>
-                                <li>Executar outras atividades correlatas.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="central-frotas" class="department-section">
-                <div class="department-card">
-                    <div class="card-header">
-                        <div class="card-header-content">
-                            <div class="card-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-truck"><path d="M14 18V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></svg>
-                            </div>
-                            <div class="card-title-section">
-                                <h2 class="card-title">CENTRAL DE FROTAS</h2>
-                                <div class="card-director">
-                                    <i data-lucide="user"></i>
-                                    <span>Wellington Bueno de Souza - Comissionado</span>
+                            <div class="contact-item">
+                                <div class="contact-label">E-mail:</div>
+                                <div class="contact-value-card">
+                                    <a href="mailto:cpd@pimentabueno.ro.gov.br">cpd@pimentabueno.ro.gov.br</a>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    
-                    <div class="card-content">
-                        <div class="contact-info">
-                            <div class="contact-detail">
-                                <img src="assets/images/location.svg" alt="Ícone de Localização" class="contact-svg-icon">
-                                <span>Avenida Castelo Branco, 1046, Bairro: Pioneiros, CEP: 76970-000</span>
-                            </div>
-                            <div class="contact-detail">
-                                <a href="https://wa.me/5569981699973" target="_blank" class="whatsapp-link">
-                                    <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                                    <span>(69) 9 8169-9973</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/email.svg" alt="Ícone de E-mail" class="contact-svg-icon">
-                                <a href="mailto:frotas@pimentabueno.ro.gov.br" class="mail-link">
-                                    <span>frotas@pimentabueno.ro.gov.br</span>
-                                </a>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/clock.svg" alt="Ícone de Horário" class="contact-svg-icon">
-                                <span>De segunda a sexta-feira, das 07:30 às 13:30.</span>
-                            </div>
-                            <div class="contact-detail">
-                                <img src="assets/images/clock.svg" alt="Ícone de Funcionamento" class="contact-svg-icon">
-                                <span><strong>Funcionamento:</strong> De segunda a segunda 24h por dia</span>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">Horário:</div>
+                                <p class="horario-atendimento">De segunda a sexta-feira, das 07:30 às 13:30.</p>
                             </div>
                         </div>
-
+                        
                         <div class="competencies">
                             <h4>Competências:</h4>
                             <ul class="competencies-list">
-                                <li>Responsável por exercer atividades relativas a monitoramento, abastecimento e manutenção veicular, entre outras atividades correlatas.</li>
-                                <li>Promover a manutenção preventiva e corretiva nos veículos, máquinas e equipamentos de todas as secretarias;</li>
-                                <li>Administrar os serviços relativos à reparação mecânica em geral, bem como, o controle de uso, abastecimento, lavagem e lubrificação de veículos, máquinas e equipamentos pesados utilizados pelas secretarias;</li>
-                                <li>Fiscalizar os serviços de retífica e outros contratos com terceiros;</li>
-                                <li>Fiscalizar a execução das planilhas (diário de bordo e de ocorrência) de acompanhamento da movimentação das máquinas, equipamentos e veículos de todas as secretarias;</li>
-                                <li>Analisar a efetiva utilização das máquinas, equipamentos e veículos em serviço, considerando os rendimentos dos combustíveis e suas despesas de manutenção comparando aos padrões de cada bem;</li>
-                                <li>Promover a manutenção preventiva e corretiva nos equipamentos, veículos e máquinas, bem como elaborar cronograma de manutenção, além de selecionar as peças para reposição;</li>
-                                <li>Administrar a reposição de peças defeituosas nos veículos, nas máquinas e nos equipamentos, bem como executar a troca dos pneus e câmaras de ar;</li>
-                                <li>Controlar o abastecimento dos veículos, das máquinas e dos equipamentos;</li>
-                                <li>Coordenar os servidores subordinados ao órgão, podendo distribuir tarefas e delegar funções;</li>
-                                <li>Comunicar e encaminhar os autos de infração de trânsito ao servidor responsável, e providenciar a apuração de responsabilidade;</li>
-                                <li>Providenciar a emissão dos documentos dos veículos (licenciamento, emplacamento, segunda via e correlatos) junto ao Detran após a secretaria de origem ter providenciado o pagamento das taxas devidas;</li>
-                                <li>Controlar os saldos de empenhos relacionados a consumo e serviços;</li>
-                                <li>Fazer a juntada necessária para os pagamentos mensais relacionados a serviços de manutenção e abastecimento;</li>
-                                <li>Monitorar os contratos de lavagem, manutenção e abastecimento;</li>
+                                <li>Responsável pela manutenção de modo geral dos sistemas de gestão pública e pela disponibilização de acesso.</li>
+                                <li>Administrar, controlar e executar o sistema de informática e a manutenção dos equipamentos.</li>
+                                <li>Prestar assessoria, suporte e operação assistida para implantação de produtos e sistemas de informática.</li>
+                                <li>Gerenciar a infraestrutura de comunicação de dados de alta capacidade.</li>
+                                <li>Prestar suporte técnico a usuários, administrar sistemas e coordenar projetos de informática.</li>
+                                <li>Administrar e controlar o domínio da internet "pimentabueno.ro.gov.br".</li>
+                                <li>Promover manutenção preventiva e corretiva dos equipamentos de informática e dos softwares.</li>
+                                <li>Realizar os procedimentos de instalação de equipamentos, programas e aplicativos.</li>
+                                <li>Coordenar os servidores subordinados ao órgão, podendo distribuir tarefas e delegar funções.</li>
                                 <li>Executar outras atividades correlatas.</li>
                             </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </main>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-left">
-                    <div class="footer-title">
-                        <div class="footer-icon">
-                            <img src="assets/images/brasao.png" alt="Brasão da Prefeitura" style="width: 2rem; height: 2rem;">
-                        </div>
-                        <div>
-                            <h3>Prefeitura de Pimenta Bueno</h3>
-                            <p>SEMFAZ - Secretaria Municipal de Fazenda e Administração</p>
                         </div>
                     </div>
                 </div>
                 
-                <div class="footer-right">
-                    <div class="footer-contact">
-                        <i data-lucide="map-pin"></i>
-                        <a href="https://www.google.com/maps/place/Av.+Castelo+Branco,+1046+-+Pioneiros,+Pimenta+Bueno+-+RO,+76970-000/@-11.6708694,-61.1889152,135m/data=!3m1!1e3!4m6!3m5!1s0x93b7e5d11ca56f83:0x57d5df651de4f8c3!8m2!3d-11.6708446!4d-61.1884997!16s%2Fg%2F1tdx0mq7?entry=ttu" target="_blank" class="map-link">
-                            <span>Av. Castelo Branco, 1046 - Pimenta Bueno–RO</span>
-                        </a>
+                <div class="department-card" id="coordenadoria-patrimonio">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-box-open"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>COORDENADORIA DE PATRIMÔNIO E ALMOXARIFADO</h3>
+                            <div class="card-director">
+                                <i class="fas fa-user"></i>
+                                <span>Juliana Perozo da Silva</span>
+                            </div>
+                        </div>
                     </div>
                     
-                    <div class="footer-contact">
-                        <a href="https://wa.me/5569981162254" target="_blank" class="whatsapp-link">
-                            <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                            <span>(69) 98116-2254</span>
-                        </a>
-                        <a href="https://wa.me/5569981699989" target="_blank" class="whatsapp-link">
-                            <img src="assets/images/whatsapp-icon.svg" alt="WhatsApp Icon" class="whatsapp-svg-icon">
-                            <span>(69) 98169-9989</span>
-                        </a>
+                    <div class="card-content">
+                        <div class="contact-info-card">
+                            <div class="contact-item">
+                                <div class="contact-label">Endereço:</div>
+                                <div class="contact-value-card">
+                                    <a href="http://googleusercontent.com/maps.google.com/9" target="_blank">
+                                        Av. Riachuelo n.º 1010 Bairro: Apedia CEP: 76970-000
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">WhatsApp:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://wa.me/5569981566984" target="_blank">(69) 98156-6984</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">E-mail:</div>
+                                <div class="contact-value-card">
+                                    <a href="mailto:cp.alm@pimentabueno.ro.gov.br">cp.alm@pimentabueno.ro.gov.br</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">Horário:</div>
+                                <p class="horario-atendimento">De segunda a sexta-feira, das 07:30 às 13:30.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="competencies">
+                            <h4>Competências:</h4>
+                            <ul class="competencies-list">
+                                <li>Acompanhar e planejar ferramentas de gestão na área de material, patrimônio, almoxarifado e arquivo.</li>
+                                <li>Receber, armazenar, controlar e distribuir os bens adquiridos pelo município.</li>
+                                <li>Cadastrar o material permanente e os equipamentos recebidos, bem como manter registro dos bens móveis.</li>
+                                <li>Conferir o estado dos bens móveis, imóveis e equipamentos.</li>
+                                <li>Seguir as normas estabelecidas pelo órgão controlador do município sobre inventários e arrolamentos de bens.</li>
+                                <li>Atender, com pontualidade, as requisições de material das unidades.</li>
+                                <li>Organizar cadastros com a discriminação, anotações e baixa de material.</li>
+                                <li>Manter a escrituração dos materiais sob sua vista e guarda.</li>
+                                <li>Atestar e liberar as notas fiscais/faturas relativas a materiais adquiridos.</li>
+                                <li>Coordenar os servidores subordinados ao órgão.</li>
+                                <li>Executar outras atividades correlatas.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="department-card" id="central-frotas">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-car"></i>
+                        </div>
+                        <div class="card-title">
+                            <h3>CENTRAL DE FROTAS</h3>
+                            <div class="card-director">
+                                <i class="fas fa-user"></i>
+                                <span>Wellington Bueno de Souza</span>
+                            </div>
+                        </div>
                     </div>
                     
-                    <div class="footer-contact">
-                        <i data-lucide="mail"></i>
-                        <a href="mailto:semfaz@pimentabueno.ro.gov.br" class="mail-link">
-                            <span>semfaz@pimentabueno.ro.gov.br</span>
-                        </a>
+                    <div class="card-content">
+                        <div class="contact-info-card">
+                            <div class="contact-item">
+                                <div class="contact-label">Endereço:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://www.google.com/maps/place/Centro+Cultural+de+Pimenta+Bueno/@-11.6712836,-61.1885044,134m/data=!3m1!1e3!4m14!1m7!3m6!1s0x93b7e5d11ca56f83:0x57d5df651de4f8c3!2sPrefeitura+de+Pimenta+Bueno!8m2!3d-11.6708446!4d-61.1884997!16s%2Fg%2F1tdx0mq7!3m5!1s0x93b7e5d62caab84b:0xbb9a20a34af270ae!8m2!3d-11.6712736!4d-61.1880021!16s%2Fg%2F1tfqs0h9?entry=ttu&g_ep=EgoyMDI1MDcyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                        Avenida Castelo Branco, 1046, Bairro: Pioneiros, CEP: 76970-000
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">WhatsApp:</div>
+                                <div class="contact-value-card">
+                                    <a href="https://wa.me/5569981699973" target="_blank">(69) 98169-9973</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">E-mail:</div>
+                                <div class="contact-value-card">
+                                    <a href="mailto:frotas@pimentabueno.ro.gov.br">frotas@pimentabueno.ro.gov.br</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">Horário de Funcionamento:</div>
+                                <div class="horario-atendimento">
+                                    De segunda a segunda, 24h por dia.
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-label">Horário de Atendimento:</div>
+                                <p class="horario-atendimento">De segunda a sexta-feira, das 07:30 às 13:30.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="competencies">
+                            <h4>Competências:</h4>
+                            <ul class="competencies-list">
+                                <li>Responsável por exercer atividades relativas a monitoramento, abastecimento e manutenção veicular.</li>
+                                <li>Promover a manutenção preventiva e corretiva nos veículos, máquinas e equipamentos de todas as secretarias.</li>
+                                <li>Administrar os serviços relativos à reparação mecânica em geral, bem como o controle de uso, abastecimento, lavagem e lubrificação de veículos, máquinas e equipamentos.</li>
+                                <li>Fiscalizar os serviços de retífica e outros contratos com terceiros.</li>
+                                <li>Fiscalizar a execução das planilhas de acompanhamento da movimentação das máquinas, equipamentos e veículos.</li>
+                                <li>Analisar a efetiva utilização das máquinas, equipamentos e veículos em serviço.</li>
+                                <li>Controlar o abastecimento dos veículos, das máquinas e dos equipamentos.</li>
+                                <li>Coordenar os servidores subordinados ao órgão.</li>
+                                <li>Comunicar e encaminhar os autos de infração de trânsito ao servidor responsável.</li>
+                                <li>Providenciar a emissão dos documentos dos veículos (licenciamento, emplacamento) junto ao Detran.</li>
+                                <li>Controlar os saldos de empenhos relacionados a consumo e serviços.</li>
+                                <li>Monitorar os contratos de lavagem, manutenção e abastecimento.</li>
+                                <li>Executar outras atividades correlatas.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/images/brasao.png" alt="Brasão de Pimenta Bueno">
+                    <h3>Prefeitura de Pimenta Bueno</h3>
+                    <p>Serviços Municipais</p>
+                </div>
+                
+                <div class="footer-contact-info">
+                    <h4 class="footer-contact-title">Contato</h4>
+                    <div class="contact-item">
+                        <div class="contact-label">Endereço:</div>
+                        <div class="contact-value-card">
+                            <a href="https://www.google.com/maps/place/Centro+Cultural+de+Pimenta+Bueno/@-11.6712836,-61.1885044,134m/data=!3m1!1e3!4m14!1m7!3m6!1s0x93b7e5d11ca56f83:0x57d5df651de4f8c3!2sPrefeitura+de+Pimenta+Bueno!8m2!3d-11.6708446!4d-61.1884997!16s%2Fg%2F1tdx0mq7!3m5!1s0x93b7e5d62caab84b:0xbb9a20a34af270ae!8m2!3d-11.6712736!4d-61.1880021!16s%2Fg%2F1tfqs0h9?entry=ttu&g_ep=EgoyMDI1MDcyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                Av. Castelo Branco, 1046 - Pimenta Bueno–RO
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-label">Telefone:</div>
+                        <div class="contact-value-card">
+                            <a href="https://wa.me/5569981162254" target="_blank">(69) 98116-2254 (Atendimento)</a><br>
+                            <a href="https://wa.me/5569981699989" target="_blank">(69) 98169-9989 (Ouvidoria)</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-label">E-mail:</div>
+                        <div class="contact-value-card">
+                            <a href="mailto:gabinete@pimentabueno.ro.gov.br">gabinete@pimentabueno.ro.gov.br</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -784,7 +748,34 @@
             </div>
         </div>
     </footer>
-
+    
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    
+    <div class="mobile-menu">
+        <div class="mobile-menu-header">
+            <div class="mobile-menu-title">Departamentos</div>
+            <button class="close-menu">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        
+        <div class="mobile-nav">
+            <button class="mobile-nav-btn active" data-target="semfaz">SEMFAZ</button>
+            <button class="mobile-nav-btn" data-target="superintendencia-receita">Receita</button>
+            <button class="mobile-nav-btn" data-target="superintendencia-rh">RH</button>
+            <button class="mobile-nav-btn" data-target="superintendencia-contabilidade">Contabilidade</button>
+            <button class="mobile-nav-btn" data-target="superintendencia-financas">Finanças</button>
+            <button class="mobile-nav-btn" data-target="superintendencia-compras">Compras</button>
+            <button class="mobile-nav-btn" data-target="central-ti">Tecnologia da Informação</button>
+            <button class="mobile-nav-btn" data-target="coordenadoria-patrimonio">Patrimônio e Almoxarifado</button>
+            <button class="mobile-nav-btn" data-target="central-frotas">Frotas</button>
+        </div>
+    </div>
+    
+    <div class="overlay"></div>
+    
     <script src="script.js"></script>
 </body>
 </html>
